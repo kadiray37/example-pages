@@ -1,0 +1,891 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Manrope", sans-serif;
+}
+/* Header Kısmının Başlangıcı */
+.header-container .header-img img {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.header-container .menu {
+  display: flex;
+  position: absolute;
+  top: 35px;
+  right: 122px;
+  gap: 40px;
+  align-items: center;
+}
+.header-container .menu ul {
+  display: flex;
+  gap: 40px;
+}
+.header-container .menu ul li a {
+  color: #000000;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  transition: color 0.5s ease-in-out;
+}
+.header-container .menu ul li a:hover {
+  color: #ffffff;
+  background-color: #f84646;
+  padding: 12px;
+  border-radius: 8px;
+}
+.header-container .menu button {
+  background-color: #f84646;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Header Kısmının Bitişi */
+
+/* banner Kısmının Başlangıçı */
+.banner-container {
+  position: absolute;
+  top: 200px;
+  left: 122px;
+  max-width: 665px;
+  max-height: 406px;
+}
+.banner-container h1 {
+  font-size: 64px;
+  line-height: 82px;
+  font-weight: 800;
+  color: #000;
+  margin-bottom: 20px;
+}
+.banner-container p {
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 50px;
+}
+.banner-container .input {
+  position: relative;
+  width: 502px;
+}
+.banner-container input {
+  width: 100%;
+  height: 73px;
+  border: none;
+  border-radius: 8px;
+  padding: 18px 32px;
+}
+.banner-container button {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 136px;
+  height: 61px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f84646;
+  color: #fff;
+  cursor: pointer;
+}
+/* banner Kısmının Bitişi */
+/* quality-banner başlangıç */
+.quality-banner {
+  max-width: 1153px;
+  margin: 145px auto;
+}
+.quality-banner-text {
+  text-align: center;
+}
+.quality-banner-text h2 {
+  font-size: 36px;
+  line-height: 49px;
+  font-weight: 800;
+  color: #000;
+}
+.quality-banner-text p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0.2px;
+  color: #000;
+  margin-top: 30px;
+}
+.quality-banner-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 116px;
+  margin-top: 91px;
+}
+.quality-banner-content .content {
+  width: calc(33% - 116px);
+  text-align: center;
+}
+
+/* quality-banner bitişi*/
+/* stats başlangıçı */
+.stats {
+  position: relative;
+}
+.stats img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.stats-text {
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%);
+  margin: 68px auto 0;
+  width: 100%;
+}
+.stats-text h2 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 64px;
+  color: #fff;
+}
+.stats-text p {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 8px;
+}
+.stats-content {
+  position: absolute;
+  top: 236px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 46px;
+  margin-top: 64px;
+}
+.stats-content p {
+  font-size: 18px;
+  line-height: 31px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+}
+.stats-content svg {
+  min-width: 32px;
+  min-height: 32px;
+}
+/* stats bitişi */
+
+/*jobdesciption başlangıçı */
+.jobdescription-container {
+  max-width: 1197px;
+  margin: 145px auto;
+  padding: 0px 60px;
+}
+
+.jobdescription {
+  display: flex;
+}
+.jobdescription-container .jobdescription:last-child {
+  margin-top: 120px;
+  flex-direction: row-reverse;
+}
+.jobdescription-container .jobdescription:last-child .jobdescription-text {
+  margin: 0px 0px 0px 85px;
+}
+.jobdescription-text {
+  margin: 0px 85px 0px 0px;
+  width: 50%;
+}
+.jobdescription-text h2 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76px;
+  color: #2e2e2e;
+}
+.jobdescription-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #808080;
+}
+.jobdescription .discover-btn {
+  background-color: #f84646;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  margin-top: 80px;
+  width: 160px;
+  height: 48px;
+  cursor: pointer;
+}
+.jobdescription-container img {
+    max-width: 100%;
+}
+
+/*jobdesciption bitişi */
+
+/* Refenrans Başlangıç */
+
+.reference {
+  background-color: #f4f5f7;
+  margin-top: 145px;
+  padding: 59px 165px;
+}
+.reference-text {
+  text-align: center;
+}
+.reference-text h2 {
+  color: #18191f;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 64px;
+}
+.reference-text p {
+  color: #18191f;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+.reference-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+.reference700px{
+  display: none;
+}
+
+.line {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.line-img-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  color: #f84646;
+}
+.line-img {
+  position: relative;
+  width: 170px;
+  height: 96px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  transition: 1s;
+  cursor: pointer;
+}
+.line-img:hover {
+  background-color: #63c063;
+  padding: 80px;
+}
+.line-img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Refenrans bitiş */
+
+/* contact-us başlangıç */
+.contact-us-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 165px auto;
+  padding: 0px 60px;
+}
+.contact-us-text h2 {
+  font-size: 48px;
+  line-height: 32px;
+  font-weight: 800;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.contact-us-text p {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.contact-us-text button {
+  background-color: #f84646;
+  padding: 25px 40px;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+/* contact-us bitiş */
+.footer {
+  background-color: #f8464a;
+}
+
+.footer-contaier {
+  display: flex;
+  justify-content: start;
+  padding: 80px 60px;
+  gap: 100px;
+}
+.footer-contaier h2 {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.footer-contaier a {
+  color: #e6e6e6;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+.footer-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 104px;
+}
+.footer-icon img {
+  padding: 0px 16px 0px 0px;
+  cursor: pointer;
+}
+.footer-icon .text p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.footer-text p{
+  cursor: pointer;
+}
+@media only screen and (max-width: 1480px) {
+  .header-container .header-img img {
+    height: 100%;
+  }
+  .banner-container {
+    top: 120px;
+  }
+  .stats-text{
+    margin: 58px auto 0;
+  }
+  .stats-text h2 {
+    font-size: 48px;
+    line-height: 64px;
+  }
+  .stats-text p{
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .stats-content{
+    margin-top: 15px;
+  }
+  .stats-content p{
+    font-size: 14px;
+    line-height: 21px;
+
+  }
+}
+@media only screen and (max-width: 1250px) {
+    .header-container .menu {
+        right: 40px;
+    }
+  .banner-container h1 {
+    font-size: 56px;
+    line-height: 73px;
+  }
+  .banner-container p {
+    font-size: 16px;
+    max-width: 565px;
+    margin-bottom: 20px;
+    line-height: 28px;
+  }
+  .banner-container .input {
+    width: 422px;
+  }
+  .header-container .header-img img {
+    height: 647px;
+  }
+  .banner-container {
+    top: 160px;
+    left: 60px;
+    max-width: 653px;
+  }
+  .stats-content{
+    margin-top: -45px;
+    gap: 25px;
+
+  }
+  .jobdescription-text{
+    margin: 0px 52px 0px 0px;
+  }
+  .jobdescription-text h2 {
+    font-size: 56px;
+    line-height: 59px;
+  }
+  .jobdescription-text p {
+    font-size: 13px;
+    line-height: 28px;
+    margin-top: 20px;
+  }
+  .jobdescription .discover-btn{
+    margin-top: 46px;
+  }
+  .footer-contaier{
+    gap: 55px;
+  }
+  .footer-contaier h2{
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .footer-contaier a{
+    font-size: 16px;
+    line-height: 32px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .quality-banner-content .content {
+    width: calc(50% - 116px);
+    text-align: center;
+  }
+  .quality-banner{
+    padding: 0px 80px;
+  }
+  .quality-banner-text {
+    padding: 0px auto;
+  }
+  .quality-banner .content {
+    max-width: 298px;
+  }
+  .reference-container{
+    gap: 15px;
+  }
+  .jobdescription-text{
+    margin: 0px 52px 0px 0px;
+  }
+  .jobdescription-text h2 {
+    font-size: 38px;
+    line-height: 40px;
+  }
+  .jobdescription-text p {
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 20px;
+  }
+  .jobdescription .discover-btn{
+    margin-top: 46px;
+  }
+  .jobdescription-container .jobdescription:last-child .jobdescription-text{
+    margin: 0px 0px 0px 52px;
+  }
+
+}
+@media only screen and (max-width: 950px){
+  .stats-text{
+    margin: 33px auto 0;
+  }
+  .stats-text h2{
+    font-size: 26px;
+    line-height: 35px;
+
+  }
+  .stats-text p {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .stats-content{
+    margin-top: -90px;
+    gap: 18px;
+  }
+  .stats-content p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .line-img{
+    width: 140px;
+    height: 85px;
+  }
+  .jobdescription-container img{
+    width: 340px;
+  }
+  .jobdescription-text h2{
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .jobdescription .discover-btn{
+    width: 110px;
+    height: 40px;
+    margin-top: 16px;
+  }
+  .footer-contaier{
+    gap: 12px;
+  }
+  .footer-contaier h2 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .footer-contaier a {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .footer-icon{
+    margin: 0px 54px;
+  }
+  
+}
+@media only screen and (max-width: 768px){
+  .header-container .menu ul{
+    gap: 20px;
+  }
+  .header-container .menu{
+    gap: 20px;
+  }
+  .banner-container h1{
+    font-size: 46px;
+    line-height: 63px;
+  }
+  .quality-banner-text p{
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .reference-container{
+    gap: 5px;
+  }
+  .stats-text h2{
+    font-size: 18px;
+  }
+  .stats-text p{
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .stats-content{
+    margin-top: -115px;
+  }
+  .stats-content p{
+    font-size: 10px;
+  }
+  
+
+}
+@media only screen and (max-width: 700px){
+  .header-container .menu ul li a{
+    font-size: 9px;
+    line-height: 14px;
+  }
+  .header-container .menu button{
+    padding: 5px 10px;
+    font-size: 9px;
+    line-height: 14px;
+
+  }
+  .header-container .menu{
+    gap: 10px;
+
+  }
+  .header-container .menu ul{
+    gap: 10px;
+  }
+  .banner-container{
+    max-width: 452px;
+    top: 125px;
+  }
+  .banner-container h1 {
+    font-size: 44px;
+    line-height: 44px;
+  }
+  .banner-container p{
+    font-size: 14px;
+  }
+  .banner-container .input{
+    width: 350px;
+  }
+  .header-container .header-img img{
+    object-position:63%;
+  }
+  .reference{
+    padding: 59px 122px;
+  }
+  .reference-text h2 {
+    font-size: 36px;
+  }
+
+  .reference-container{
+    display: none;
+  }
+  .reference700px{
+    display: flex;
+  }
+  .line-img-text{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .line-img-text p {
+    color: #f84646;
+  }
+  .line{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 40px;
+   
+  }
+  .banner-container{
+    max-width: 352px;
+    top: 130px;
+  }
+  .quality-banner-content .content{
+    width: calc(100%);
+  }
+  .jobdescription-text{
+    margin: 0px 30px 0px 0px;
+  }
+  .jobdescription-text h2{
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .jobdescription-text p{
+    font-size: 10px;
+    margin-top: 5px;
+    line-height: 14px;
+  }
+  .jobdescription-container .jobdescription:last-child{
+    margin-top: 60px;
+  }
+  .jobdescription-container .jobdescription:last-child .jobdescription-text{
+    margin: 0px 0px 0px 30px;
+  }
+  .jobdescription-container img{
+    width: 220px;
+    height: 280px;
+    object-fit: cover;
+  }
+  .stats img{
+    height: 500px;
+  }
+  .stats-content{
+    flex-direction: column;
+    text-align: center;
+  }
+  .stats-text h2{
+    font-size: 22px;
+  }
+  .stats-text p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .stats-content p {
+    font-size: 16px;
+  }
+  .footer-contaier{
+    flex-direction: column;
+    gap:24px;
+  }
+  .footer-text a{
+      display: flex;
+      margin-bottom: 0px;
+  }
+  .footer-icon{
+    flex-direction: column-reverse;
+    justify-content: start;
+    align-items: start;
+    margin-top: -30px;
+  }
+  .footer-icon .text{
+    margin-top: 60px;
+  }
+}
+@media only screen and (max-width: 500px){
+  .burger{
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+  }
+  .burger .line1,
+  .burger .line2,
+  .burger .line3{
+    width: 24px;
+    height: 3px;
+    background-color: #fff;
+  }
+  .burger .line2{
+    margin: 3px 0px;
+  }
+  .header-container .menu ul{
+    display: none;
+  
+  }
+  .header-container .menu button {
+    padding: 10px 20px;
+    margin: 0px -20px 0px 0px;
+  }
+  .banner-container{
+    max-width: 335px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .banner-container h1{
+    text-align: center;
+    font-size: 37px;
+
+  }
+  .banner-container p{
+    text-align: center;
+    font-size: 11px;
+    line-height: 23px;
+  }
+  .banner-container{
+    top: 105px;
+  }
+  .banner-container .input{
+    width: 335px;
+  }
+  .quality-banner{
+    padding: 0px 20px;
+    margin: 60px auto;
+  }
+  .quality-banner-text h2{
+    font-size: 24px;
+  }
+  .quality-banner-text p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .stats-text{
+    max-width: 335px;
+  }
+  .stats-text h2{
+    font-size: 30px;
+  }
+  .stats-text p {
+    font-size: 14px;
+  }
+  .stats-content{
+    margin-top: -89px;
+  }
+  .jobdescription-container{
+    margin: 90px auto;
+    padding: 0px 20px;
+  }
+  .jobdescription{
+    flex-direction: column-reverse;
+  }
+  .jobdescription-container .jobdescription:last-child{
+    flex-direction: column-reverse;
+  }
+  .jobdescription-container img{
+    width: 338px;
+    border-radius: 10px;
+  }
+  .jobdescription-text{
+    width: 338px;
+    text-align: center;
+    margin: 0px;
+  }
+  .jobdescription-text h2{
+    font-size: 36px;
+    line-height: 42px;
+    margin-top: 30px;
+
+  }
+  .jobdescription-text p {
+    font-size: 14px;
+    line-height: 28px;
+    margin-top: 20px;
+
+  }
+  .jobdescription .discover-btn {
+    width: 338px;
+    margin-top: 40px;
+  }
+  .jobdescription-container .jobdescription:last-child .jobdescription-text{
+    width: 338px;
+    text-align: center;
+    margin: 0px;
+  }
+  .reference{
+    margin-top: 80px;
+    padding: 0px 20px;
+  }
+  .reference-text h2 {
+    font-size: 36px;
+    line-height: 40px;
+    padding: 40px 0px 14px 0px;
+  }
+  .reference-text p {
+    font-size: 14px;
+    line-height: 32px;
+  }
+  .line-img{
+    width: 170px;
+    height: 96px;
+  }
+  .contact-us-container{
+    margin: 90px auto;
+    padding: 0px 20px;
+  }
+  .contact-us-text h2{
+    font-size: 36px;
+    line-height: 32px;
+  }
+  .contact-us-text p{
+    font-size: 14px;
+    line-height: 25px;
+  }
+}
+@media only screen and (max-width: 375px){
+  .banner-container .input{
+    width: 290px;
+  }
+  .jobdescription .discover-btn{
+    width: 270px;
+  }
+  .jobdescription-text{
+    max-width: 270px;
+  }
+  .banner-container input{
+    padding: 18px 18px;
+    font-size: 12px;
+    height: 65px;
+  }
+  .banner-container button{
+    width: 85px;
+    height: 40px;
+    top: 12px;
+    right: 12px;
+  }
+}

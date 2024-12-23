@@ -1,0 +1,1517 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Montserrat", system-ui;
+}
+body{
+    background-color:#302C42;
+}
+.btn {
+    width: 155px;
+    height: 48px;
+    border: none;
+    background: linear-gradient(#8176AF 0%, #C0B7E8 100%);
+    color: #343045;
+    border-radius: 40px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btn:hover{
+    background: linear-gradient(#8176AF 100%, #C0B7E8 100%);
+}
+
+
+/* -----------------------------------------------------------------------------------------------------HEADER BAŞLANGIÇ ----------------------------------------------------------------- */
+.header-hamburger {
+    display: none;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 49px 84px 0px 84px;
+}
+.header-container .logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.header-container .menu ul{
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+.header-container .menu a{
+    color: #fff;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.header-container .menu a:hover{
+    font-size: 16px;
+    color: #8176AF;
+}
+.header-container .header-btn{
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+.header-container .header-btn a:first-child button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    transition: 0.5s;
+}
+.header-container .header-btn a:first-child button:hover{
+    background-color: white;
+    color: #211E2E;
+}
+
+
+/* -----------------------------------------------------------------------------------------------------HEADER BİTİŞ ----------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------------------------------BANNER BAŞLANGIÇ ----------------------------------------------------------------- */
+
+.banner-image {
+    position: relative;
+    top: -170px;
+    z-index: -1;
+}
+.banner-image img {
+    width: 100%;
+    object-fit: cover;
+}
+.banner-text-block{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    padding: 0px 84px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 112px
+}
+.banner-text{
+    max-width: 456px;
+    width: 50%;
+}
+.banner-text h2{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    margin-top: 34px;
+}
+.banner-text span{
+    background: linear-gradient(91.57deg, #C0B7E8 -1.02%, #8176AF 36.25%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 46px;
+    line-height: 56px;
+    font-weight: 700;
+}
+.banner-text p {
+
+    color: #fff;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    margin-top: 36px;
+}
+.banner-btn {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 66px;
+}
+.banner-btn button {
+    width: 214px;
+
+}
+.banner-btn span {
+    position: relative;
+    width: 48px;
+    height: 5px;
+    background: #C0B7E8;;
+    border-radius: 40px;
+}
+.banner-btn span::before{
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 5px;
+    background: #C0B7E8;
+    top: -8px;
+    border-radius: 40px;
+    right: -4px;
+    transform: rotate(45deg);
+}
+.banner-btn span::after{
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 5px;
+    background: #C0B7E8;
+    top: 8px;
+    border-radius: 40px;
+    right: -4px;
+    transform: rotate(135deg);
+}
+.banner-image{
+    width: 50%;
+}
+.banner-img img{
+    width: 100%;
+    object-fit: cover;
+    max-width: 490px;
+    max-height: 426px;
+    border: 14px solid #00000021;
+    border-radius: 100px 100px 100px 240px;
+}
+
+
+.banner-end-container{
+    position: relative;
+    top: -103px;
+    margin: 0 84px;
+    height: 167px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+    border-radius: 90px;
+
+}
+.banner-end-container .card{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.banner-end-container .card h3 {
+    color: #fff;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+}
+.banner-end-container .card p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+}
+.banner-end-container span {
+    width: 2px;
+    height: 116px;
+    border: 1px solid #C0B7E854
+}
+/* -----------------------------------------------------------------------------------------------------BANNER BİTİŞ ----------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------------------------------INTRODUCTİON BAŞLANGIÇ ----------------------------------------------------------------- */
+
+.introduction{
+    position: relative;
+    margin: 0px 84px;
+}
+.page-head {
+    width: 100%;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.head-line{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.head-left span{
+    position: relative;
+    width: 157px;
+    height: 5px;
+    background: #C0B7E8;;
+    border-radius: 40px;
+
+
+}
+.head-left span::before{
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 5px;
+    background: #C0B7E8;
+    top: -8px;
+    border-radius: 40px;
+    right: -4px;
+    transform: rotate(45deg);
+}
+.head-left span::after{
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 5px;
+    background: #C0B7E8;
+    top: 8px;
+    border-radius: 40px;
+    right: -4px;
+    transform: rotate(135deg);
+
+}
+.head-right{
+    max-width: 652px ;
+}
+.head-right p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+
+}
+.head-left h2{
+    color: #fff;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 700;
+
+}
+.head-left p {
+    color: #fff;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 300;
+}
+
+.introduction-container{
+    margin-top: 101px;
+    position: relative;
+}
+.introduction-block{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.introduction-container .background img{
+    width: 100%;
+    object-fit: cover;
+}
+.introduction-block picture img{
+    width: 100%;
+    max-width: 524px;
+    height: 497px;
+    object-fit: cover;
+
+}
+.introduction-block .container-text {
+    width: 50%;
+    max-width: 630px;
+}
+.introduction-block .container-text h3 {
+    color: #fff;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.introduction-block .container-text h4{
+    color: #fff;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 300;
+}
+.introduction-block .container-text p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    margin-top: 42px;
+}
+.introduction-block .container-text button {
+    width: 214px;
+    margin-top:28px;
+}
+/* -----------------------------------------------------------------------------------------------------INTRODUCTİON BİTİŞ ----------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------------------------------BUILD BAŞLANGIÇ ----------------------------------------------------------------- */
+.build {
+    margin: 111px 84px 0px 84px ;
+}
+.build-block{
+    display: flex;
+    margin-top: 107px;
+    gap: 10px;
+}
+.cards {
+    width: calc(25% - 10px);
+    height: 511px;
+    background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 37px 25px;
+    backdrop-filter: blur(100px);
+
+}
+.cards img {
+    border:14px solid #0E0E0E52;
+    border-radius: 50%;
+    width: 100%;
+}
+.cards h2 {
+    color: #fff;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+    margin-top: 21px;
+}
+.cards span {
+    width: 154px;
+    border: 1px solid #C0B7E854;
+    margin-top: 17px;
+}
+.cards p {
+    color: #fff;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    margin-top: 21px;
+    text-align: center;
+}
+.cards button {
+    margin-top: 35px;
+}
+/* -----------------------------------------------------------------------------------------------------BUILD BİTİŞ----------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------------------------------HARDWARE BAŞLANGIÇ ----------------------------------------------------------------- */
+
+.hardware{
+    margin: 111px 84px 0px 84px ;
+    position: relative;
+}
+.hardware-container img{
+    width: 100%;
+    object-fit: cover;
+
+}
+.hardware-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.hardware-text h2 {
+    color: #fff;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 700;
+}
+.hardware-text p{
+    color: #fff;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 300;
+}
+.hardware-container .circle {
+    position: absolute;
+    background:#C0B7E8;
+    width: 60px;
+    height: 60px;
+    bottom: -15px;
+    right: 50%;
+    transform: translateX(50%);
+    border: 7px solid #211E2E;
+    border-radius: 50%;
+}
+.hardware-container .circle span {
+    width: 21px;
+    height: 3px;
+    background: #433D60;
+    position: absolute;
+    left: 14%;
+    bottom: 40%;
+    transform: rotate(45deg);
+}
+.hardware-container .circle span::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 3px;
+    background: #433D60;
+    left: 10px;
+    bottom: 10px;
+    transform: rotate(90deg);   
+}
+/* -----------------------------------------------------------------------------------------------------HARDWARE BİTİŞ ----------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------------------------------BRAND-LOGO BAŞLANGIÇ ----------------------------------------------------------------- */
+.brand-logo{
+    margin: 110px 84px 0px 84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* -----------------------------------------------------------------------------------------------------BRAND-LOGO BİTİŞ ----------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------------------------------HOWBUILD BAŞLANGIÇ ----------------------------------------------------------------- */
+.howbuild{
+    margin: 110px 84px 0px 84px;
+}
+
+/* -----------------------------------------------------------------------------------------------------APPLICATIONS BİTİŞ ----------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------------------------------APPLICATIONS BAŞLANGIÇ ----------------------------------------------------------------- */
+.applications{
+    position: relative;
+    margin-top: 87px;
+    height: 300px;
+}
+.applications-img img{
+    width: 100%;
+    object-fit: cover;
+}
+.applications-circle{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 115px;
+    padding: 0px 30px;
+
+}
+.applications-circle .circle{
+    position: relative;
+    background: linear-gradient(251.27deg, #C0B7E8 12.87%, #8176AF 89.33%);
+    width: 159px;
+    height: 159px;
+    border-radius: 50%;
+    margin-top: 30px;
+    border: 19px solid #211E2E;
+
+
+}
+.applications-circle .circle p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:  #343045;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+}
+.circle-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+}
+.circle-text h2 {
+    font-size: 24px;
+    line-height: 29px;
+    color: #fff;
+    font-weight: 700;
+}
+.text-container{
+    display: flex;
+    gap: 15px;
+}
+.span-line {
+    position: relative;
+    width: 28px;
+    height: 3px;
+    background: #C0B7E8;
+    top: 15px;
+    border-radius: 10px;
+    
+}
+.span-line::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 3px;
+    background: #C0B7E8;
+    top:-4px;
+    right: -1px;
+    transform: rotate(45deg);
+    border-radius: 10px;
+
+}
+.span-line::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 3px;
+    background: #C0B7E8;
+    top:4px;
+    right:-1px;
+    transform: rotate(135deg);
+    border-radius: 10px;
+}
+/* -----------------------------------------------------------------------------------------------------APPLICATIONS BİTİŞ ----------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------------------------------FORM BAŞLANGIÇ----------------------------------------------------------------- */
+
+.form{
+    margin: 110px 84px 0px 84px;
+    text-align: center;
+    padding: 90px 108px;
+    background: radial-gradient(50% 50% at 50% 50%, #403A5F 0%, #211E2E 100%);
+    border-radius: 50px;
+
+}
+.form-text{
+    position: relative;
+}
+.form-text h2 {
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.form-text span {
+    width: 414px;
+    height: 3px;
+    background: linear-gradient(270deg, #343045 0%, #C0B7E8 34.9%, #8176AF 68.75%, #343045 100%);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 50%;
+}
+.form-text p {
+    color: #fff;
+    font-size: 36px;
+    line-height: 43px;
+    margin-top: 60px;
+    font-weight: 300;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
+    width: 100%;
+    gap: 40px;
+
+}
+.form-container .form-two input {
+    width: calc(49% - 10px);
+    border-radius: 40px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    height: 72px;
+    padding: 27px 0px 27px 42px;
+    margin-right: 10px;
+}
+.form-container .form-one input{
+    width: calc(98% - 10px);
+    border-radius: 40px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    height: 72px;
+    padding: 27px 0px 27px 42px;
+    
+}
+.form-container .form-area textarea {
+    width: calc(98% - 10px);
+    border-radius: 40px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    height: 210px;
+    padding: 27px 0px 0px 42px;
+
+
+}
+.form-container .form-btn button {
+    width: 214px;
+}
+
+/* -----------------------------------------------------------------------------------------------------FORM BİTİŞ----------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------------------------------FOOTER BAŞLANGIÇ ----------------------------------------------------------------- */
+.footer {
+    margin: 110px 84px 0px 84px;
+    position: relative;
+}
+.footer-bg-img{
+    position: absolute;
+    top: -300px;
+    z-index: -1;
+}
+.footer-bg-img img {
+    width: 100%;
+    object-fit: cover;
+
+}
+.footer-container{
+    display: flex;
+    gap: 70px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer-links a {
+    color: #fff;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+
+}
+.web-about{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.web-about a {
+    color: #fff;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+}
+.footer-container span {
+    width: 6px;
+    height: 196px;
+    background: linear-gradient(270deg, #343045 0%, #C0B7E8 34.9%, #8176AF 68.75%, #343045 100%);
+    border-radius: 50%;
+}
+.social-media{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.social-text p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+
+
+}
+.social-media-btn{
+    display: flex;
+    gap: 20px;
+}
+.social-btn button {
+    width: 214px;
+}
+
+.footer-end-span{
+    margin-top: 70px;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(270deg, #343045 0%, #C0B7E8 34.9%, #8176AF 68.75%, #343045 100%);
+}
+.footer-end-text{
+    margin: 50px 0px;
+}
+.footer-end-text p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 13%;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1250px){
+    .header-container .menu ul {
+        gap: 16px;
+    }
+    .header-container .header-btn{
+        gap: 24px;
+    }
+    .btn{
+        width: 115px;
+    }
+    .banner-end-container{
+        top: -200px;
+    }
+    .banner-end{
+        position: relative;
+        top: -10px;
+    }
+
+    .banner-text-block{
+        top: 32%;
+    }
+    .banner-img img{
+        max-width: 350px;
+    }
+    .banner-text{
+        max-width: 350px;
+    }
+    .banner-text span {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .banner-text h2{
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .banner-text p{
+        font-size: 12px;
+        line-height: 16px;
+        margin-top: 24px;
+    }
+    .banner-btn{
+        margin-top: 33px;
+    }
+    .head-right{
+        max-width: 350px;
+    }
+    .head-right p{
+        font-size: 10px;
+    }
+    .head-line{
+        gap: 20px;
+    }
+    .head-left span{
+        width: 140px;
+    }
+    .introduction-block picture img {
+        max-width: 350px;
+        height: 350px;
+    }
+    .introduction-block .container-text{
+        max-width: 350px;
+    }
+    .introduction-block .container-text h3{
+        margin-top: 10px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .introduction-block .container-text h4 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .introduction-block .container-text p{
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .introduction-block .container-text button{
+        width: 155px;
+        margin-top: 14px;
+    }
+    .brand-logo img {
+        width: 174px;
+        height: 174px;
+    }
+    .applications-circle{
+        gap: 30px;
+    }
+    .applications-circle .circle{
+        width: 125px;
+        height: 125px;
+        border: 10px solid #211E2E;
+    }
+    .circle-text h2{
+        font-size: 12px;
+    }
+    .applications-circle {
+        top: 35%;
+    }
+    .applications-circle .circle p{
+        font-size: 32px;
+    }
+    .form {
+        margin: 0px 84px 0px 84px;
+    }
+    .footer-container {
+        gap: 0px;
+    }
+    .footer-bg-img{
+        top: 0px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .header-container{
+        padding: 24px 30px 0px 30px;
+    }
+    .header-container .menu a{
+        font-size: 9px;
+    }
+    .btn{
+        width: 90px;
+        font-size: 12px;
+    }
+    .banner-text-block {
+        margin-top: -5px;
+        padding: 0px 30px;
+
+    }
+    .banner-img img {
+        max-width: 225px;
+    }
+    .banner-text{
+        max-width: 225px;
+    }
+    .banner-text h2{
+        font-size: 18px;
+        line-height: 26px;
+
+    }
+    .banner-text span {
+        font-size: 21px;
+        line-height: 29px;
+    }
+    .banner-btn{
+        margin-top: 10px;
+    }
+    .banner-btn button {
+        width: 150px;
+    }
+
+    .banner-end-container {
+        height: 110px;
+    }
+    .banner-end-container span {
+        height: 80px;
+    }
+    .banner-end-container .card h3{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .banner-end-container .card p {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .card img {
+        width: 100%;
+        max-width: 55px;
+        height: 55px;
+
+    }
+    .cards img{
+        max-width: 100px;
+        border: 9px solid #0E0E0E52;
+    }
+    .cards h2{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .cards span {
+        width: 80px;
+    }
+    .cards p{
+        font-size: 9px;
+        line-height: 12px;
+    }
+    .cards {
+        height: 425px;
+    }
+
+    .banner-end-container{
+        top: -130px;
+        margin: 0px 30px;
+    }
+    .banner-end-container .card {
+        gap: 2px;
+    }
+    .head-left {
+        max-width: 350px;
+    }
+    .head-left h2{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .head-left p{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .head-left span{
+        width: 60px;
+    }
+    .head-right {
+        max-width: 250px;
+    }
+    .head-right p{
+        font-size: 9px;
+    }
+    .introduction-block picture img {
+        width: 250px;
+        height: 250px;
+    }
+    .introduction-block .container-text{
+        max-width: 250px;
+    }
+    .introduction-block{
+        top: -50px;
+    }
+    .introduction{
+        margin: 0px 30px;
+    }
+    .introduction-block .container-text p {
+        font-size: 9px;
+        line-height: 14px;
+    }
+    .brand-logo{
+        margin: 110px 30px 0px 30px;
+    }
+    .hardware-text h2 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .hardware-text p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .hardware-container .circle{
+        width: 45px;
+        height: 45px;
+    }
+    .hardware-container .circle span{
+        width: 15px;
+        bottom: 41%;
+    }
+    .hardware-container .circle span::before{
+        width: 15px;
+        left: 7px;
+        bottom: 7px;
+
+    }
+    .howbuild{
+        margin: 110px 30px 0px 30px;
+    }
+    .build{
+        margin: 110px 30px 0px 30px;
+    }
+    .hardware{
+        margin: 110px 30px 0px 30px;
+    }
+    .form{
+        margin: 0px 30px;
+    }
+    .footer{
+        margin: 110px 30px 0px 30px;
+    }
+    .footer-links a{
+        font-size: 9px;
+        line-height: 12px;
+    }
+    .web-about a{
+        font-size: 9px;
+        line-height: 12px;
+    }
+    .social-text p{
+        font-size: 9px;
+        line-height: 12px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media screen and (max-width: 750px){
+    .menu{
+        display: none;
+    }
+    .header-container .header-btn{
+        display: none;
+    }
+
+    .header-hamburger{
+        display: flex;
+    }
+    .header-hamburger span{
+        position: relative;
+        width: 25px;
+        height: 3px;
+        background: darkblue;
+        border-radius: 50%;
+        
+    }
+    .header-hamburger span::before{
+        content: "";
+        position: absolute;
+        width: 25px;
+        height: 3px;
+        background: yellow;
+        top: -8px;
+        border-radius: 50%;
+    }
+    .header-hamburger span::after{
+        content: "";
+        position: absolute;
+        width: 25px;
+        height: 3px;
+        background: yellow;
+        top: 8px;
+        border-radius: 50%;
+    }
+    .banner-text-block {
+        margin-top: -25px;
+    }
+    .banner-end-container {
+        top: -65px;
+    }
+    .banner-image {
+        top: -120px;
+    }
+    .hardware{
+        margin: 55px 30px 0px 30px;
+
+    }
+    .hardware-text h2{
+        font-size: 16px;
+    }
+    .brand-logo{
+        margin: 55px 30px 0px 30px;
+    }
+    .brand-logo img{
+        width: 75px;
+        height: 75px;
+    }
+    .howbuild{
+        margin: 55px 30px 0px 30px;
+    }
+    .build-block {
+        margin-top: 55px;
+    }
+    .applications-circle .circle{
+        width: 75px;
+        height: 75px;
+    }
+    .applications-circle {
+        top: 25%;
+    }
+    .applications{
+        margin-top: 55px;
+        height: 250px;
+    }
+    .form{
+        padding: 30px 30px;
+    }
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .footer-container span{
+        display: none;
+    }
+    .social-text p{
+        text-align: center;
+        font-size: 16px;
+    }
+    .social-media{
+        align-items: center;
+    }
+    .footer-links {
+        text-align: center;
+    }
+    .web-about{
+        text-align: center;
+    }
+
+
+
+
+
+
+}
+@media screen and (max-width: 600px){
+    .banner-img img{
+        max-width: 175px;
+    }
+    .banner-text-block{
+        margin-top: -55px;
+    }
+    .banner-text p{
+        margin-top: 5px;
+    }
+    .banner-btn{
+        margin-top: 5px;
+        gap: 5px;
+    }
+    .banner-end-container .card{
+        width: calc(33% - 10px);
+    }
+    .card img{
+        max-width: 40px;
+        height: 40px;
+    }
+    .banner-end-container .card h3{
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .banner-end-container .card p {
+        font-size: 6px;
+        line-height: 10px;
+    }
+    .banner-end-container {
+        height: 75px;
+    }
+    .banner-end-container span{
+        height: 45px;
+    }
+    .banner-end-container {
+        top: -40px;
+    }
+    .head-left h2 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .head-left p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .head-left span {
+        width: 45px;
+    }
+    .introduction-block {
+        top: -65px;
+    }
+    .introduction-block picture img {
+        width: 175px;
+        height: 175px;
+    }
+    .introduction-block .container-text h3 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .introduction-block .container-text h4{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .introduction-block .container-text p {
+        margin-top: 5px;
+        font-size: 8px;
+    }
+    .introduction-block{
+        align-items: center;
+    }
+    .introduction-block .container-text button {
+        margin-top: 5px;
+        width: 150px;
+    }
+    .cards{
+        padding: 25px 12px;
+        backdrop-filter: none;
+    }
+    .hardware-text h2 {
+        font-size: 12px;
+    }
+    .hardware-text {
+        top: 40%;
+    }
+    .hardware-text p{
+        font-size: 12px;
+    }
+    .head-line {
+        gap: 10px;
+    }
+    .circle-text h2 {
+        font-size: 8px;
+    }
+    .applications-circle {
+        gap: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media screen and (max-width: 500px){
+    .banner-container{
+        height: 750px;
+    }
+    .banner-text-block {
+        margin-top: 0px;
+        flex-direction: column-reverse;
+        align-items: center;
+        top: 45%;
+    }
+    .banner-text {
+        width: 100%;
+        max-width: 318px;
+    }
+    .banner-end-container{
+        top: 60px;
+    }
+    .banner-end-container .card{
+        display: none;
+    }
+    .banner-end-container span{
+        display: none;
+    }
+    .banner-end-container .cardactive{
+        display: flex;
+        align-items: center;
+        width: max-content;
+    }
+    .banner-image{
+        top: -95px;
+    }
+    .banner-image img{
+        object-fit: none;
+        object-position: 91%;
+    }
+    .banner-img img{
+        max-width: 318px;
+    }
+    .banner-text h2{
+        font-size: 25px;
+        line-height: 34px;
+        text-align: center;
+    }
+    .banner-text span{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .banner-btn-line{
+        display: none;
+    }
+    .banner-text-p{
+        display: none;
+    }
+    .banner-btn button{
+        margin-top: 36px;
+    }
+    .banner-btn button {
+        width: 315px;
+        color: #343045;
+        font-weight: 700;
+    }
+    .banner-end-container .card h3 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .banner-end-container .cardactive{
+        gap: 10px;
+    }
+    .banner-end-container .card p{
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .head-right p{
+        display: none;
+    }
+    .head-left span{
+        display: none;
+    }
+    .page-head{
+        justify-content: center;
+    }
+    .head-left h2{
+        font-size: 26px;
+        line-height: 31px;
+    }
+    .head-left{
+        text-align: center;
+    }
+    .head-line{
+        justify-content: center;
+    }
+    .head-left p{
+        font-size: 26px;
+        line-height: 31px;
+    }
+    .introduction{
+        height: 715px;
+    }
+    .introduction-block{
+        flex-direction: column;
+    }
+    .introduction-block picture img{
+        width: 100%;
+        height: 318px;
+        object-fit: cover
+    }
+    .introduction-block .container-text h3{
+        display: none;
+    }
+    .introduction-block .container-text h4{
+        display: none;
+    }
+    .introduction-block .container-text{
+        width: 100%;
+        max-width: 318px;
+    }
+    .introduction-block .container-text p {
+        margin-top: 50px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .introduction-block .container-text{
+        position: relative;
+    }
+    .introduction-block .container-text button{
+        position: absolute;
+        right: 50%;
+        transform: translate(50%);
+        margin-top: 34px;
+    }
+    .cards{
+        display: none;
+    }
+    .cards-active{
+        display: flex;
+        width: calc(100% - 10px);
+        padding: 30px 30px;
+    }   
+    .cards img {
+        max-width: 180px;
+    }
+    .cards h2{
+        font-size: 24px;
+        line-height: 30px;
+        margin-top: 12px;
+    }
+    .cards span {
+        width: 175px;
+    }
+    .cards p{
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .cards button{
+        width: 100%;
+        max-width: 200px;
+        margin-top: 12px;
+    }
+    .hardware-container img {
+        height: 160px;
+        border-radius: 60px;
+        object-fit: cover;
+    }
+    .hardware-text h2{
+        width: max-content;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .hardware-text p{
+        font-size: 21px;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+    .brand-logo-img1{
+        display: none;
+    }
+    .brand-logo{
+        justify-content: center;
+        margin: 30px 30px 0px 30px;
+    }
+    .brand-logo img{
+        width: 256px;
+        height: 256px;
+    }
+    .applications-img{
+        display: none;
+    }
+    .circle-text{
+        display: none;
+    }
+    .applications-circle-active{
+        display: flex;
+        width: 100%;
+        
+    }
+    .span-line{
+        display: none;
+    }
+    .circle-text h2{
+        text-align: center;
+        font-size: 25px;
+    }
+    .applications-circle .circle {
+        width: 150px;
+        height: 150px;
+        border: 15px solid #211E2E;
+        margin-top: 40px;
+    }
+    .form-text span {
+        width: 215px;
+    }
+    .form-container{
+        gap: 20px;
+        margin-top: 30px;
+    }
+    .form-two{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+    .form-container .form-two input{
+        width: calc(100% - 10px);
+    }
+    .form-text p{
+        font-size: 26px;
+    }
+    .banner-end{
+        top: 200px;
+    }
+
+
+
+
+
+
+
+
+    
+
+
+
+}
+@media screen and (max-width: 375px){
+    .banner-btn{
+        justify-content: center;
+    }
+    .banner-btn button{
+        width: 280px;
+    }
+    .banner-end-container{
+        top: 120px;
+    }
+    .social-media-btn {
+        gap: 10px;
+    }
+    .banner-image img{
+        object-position: 85%;
+    }
+
+}
